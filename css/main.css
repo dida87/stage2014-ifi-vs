@@ -1,0 +1,282 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #FFFFFF;
+}
+
+#page
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#headers
+{
+	margin: 0;
+	padding: 0;
+	/*border-top: 3px solid #C9E0ED;*/
+        background-color: white;
+	//background-image: url( 'viragok.jpg' );
+	//background-repeat: no-repeat;
+	//height: 150px;
+}
+
+#content
+{
+    padding: 20px;
+    width: 1060px;
+    min-height: 420px;
+}
+
+#sidebar
+{
+	padding: 0px 10px 40px 50px;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 100%;
+        //background-color: seagreen;
+        background-image: url( 'dock.jpeg' );
+	background-repeat: no-repeat;
+        height: 170px;
+        text-align: right;
+}
+
+#mainmenu
+{
+	/*background:white url(bg.gif) repeat-x left top;*/
+        background-color: #008080;
+}
+
+#mainmenu ul
+{
+	padding:8px 20px 8px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+        /*text-transform: uppercase;*/
+       
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	//color: #67811e;
+	//background-color:#EFF4FA;
+	//text-decoration:none;
+        color: #CA0EE3;
+        background-color: #EFF4FA;
+	text-decoration:none;
+        border-radius: 5px 5px 0px 0px;
+
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+        
+        
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+        display: table;
+	border: 1px solid #E2EDF4;
+         //#C9E0ED
+}
+
+div.breadcrumbs
+{
+    
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #FFFFFF;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #FFA0A2;
+	display: table;
+	padding: 2px 0 2px 8px;
+	line-height: 12px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #FBE3E4;
+}
+//Transform horizontal to vertical
+.operations_ads ul {
+    /* transform horizontal <UL> into a vertical UL*/
+	    display: inline !important;
+	}
+	.operations_ads li {
+	    /* transform horizontal <UL> into a vertical UL*/
+	    display: table !important;
+	    float: left !important;
+            
+	    padding-right: 10px;
+	    margin-right: 10px;
+	    /* Styling */
+	    border-style:solid;
+	    border-color:#80CFFF;
+            border-width:1px;
+	    background-color:#CEEDFF;
+           
+	}
+	.operations_ads li:hover {
+	    background-color:#80CFFF;
+	}
+	.operations_ads {
+	    width: 100% !important;
+	}
+	.operations_ads .portlet-content {
+	    position: absolute;
+	    width: 732px;
+        }
